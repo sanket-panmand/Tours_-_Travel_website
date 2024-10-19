@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel website</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i class="fas fa-paper-plane"></i>shree
+        </a>
+
+        <nav class="navbar">
+            <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">home</a>
+            <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">about</a>
+            <a data-aos="zoom-in-left" data-aos-delay="600" href="#destination">destination</a>
+            <a data-aos="zoom-in-left" data-aos-delay="750" href="#services">services</a>
+            <a data-aos="zoom-in-left" data-aos-delay="900" href="#gallery">gallery</a>
+            <a data-aos="zoom-in-left" data-aos-delay="1150" href="#blogs">blogs</a>
+        </nav>
+
+        <section class="navbar2">
+            <a data-aos="zoom-in-left" data-aos-delay="1300" href="#login-form" class="btn" id="login">Login now</a>
+            <a data-aos="zoom-in-left" data-aos-delay="1450" href="#book-form" class="btn" id="book">book now</a>
+        </section>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <span data-aos="fade-up" data-aos-delay="150">Travel With us</span>
+            <h3 data-aos="fade-up" data-aos-delay="300">Shree Tours & Travels</h3>
+            <p data-aos="fade-up" data-aos-delay="450">No matter where in the Maharashtra you want to go, we can help
+                get you
+                there.</p>
+            <a data-aos="fade-up" data-aos-delay="600" href="#book-form" class="btn" id="book">book now</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- booking form section starts  -->
+
+    <section class="book-form" id="book-form">
+
+        <form action="">
+            <div data-aos="zoom-in" data-aos-delay="150" class="inputBox">
+                <span>where to?</span>
+                <input type="text" list="my-list" placeholder="place name" value="">
+                <datalist id="my-list">
+                    <option value="Ajanta" ></option>
+                    <option value="Alibag"></option>
+                    <option value="Bhandardara"></option>
+                    <option value="Diveagar"></option>
+                    <option value="Ganpatipule"></option>
+                    <option value="Juhu Beach"></option>
+                    <option value="Lavasa City"></option>
+                    <option value="Mahabaleshwar"></option>
+                    <option value="Pratapgad"></option>
+                    <option value="Rajmachi"></option>
+                    <option value="Raigad"></option>
+                    <option value="Toranmal"></option>
+                </datalist>
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="300" class="inputBox">
+                <span>when?</span>
+                <input type="date" value="">
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="450" class="inputBox">
+                <span>how many?</span>
+                <input type="number" placeholder="number of travelers" value="">
+            </div>
+            <input data-aos="zoom-in" data-aos-delay="600" type="submit" value="find now" class="btn">
+        </form>
+
+    </section>
+
+    <!-- booking form section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+            <video src="images/devkund.mp4" height="480" muted autoplay loop class="video"></video>
+            <div class="controls">
+                <span class="control-btn" data-src="images/devkund.mp4"></span>
+                <span class="control-btn" data-src="images/marshesh.mp4"></span>
+                <span class="control-btn" data-src="images/pratapgad.mp4"></span>
+            </div>
+        </div>
+
+        <div class="content" data-aos="fade-left" data-aos-delay="500">
+            <span>why choose us?</span>
+            <h3>To Captured Beautifull Movements</h3>
+            <p>We give you a best service in Maharashtra, Across 50+ more offices available in Maharashtra. Our company
+                is trusted brand in every sector.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- destination section starts  -->
+
+    <section class="destination" id="destination">
+
+        <div class="heading">
+            <span>our destination</span>
+            <h1>make yours destination</h1>
+        </div>
+
+        <div class="box-container" id="box-container">
+
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
+                <div class="image">
+                    <img src="images/mahabaleshwar.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mahabaleshwar</h3>
+                    <p>Mahabaleshwar is a hill station located in the Western Ghats, in Satara district of Maharashtra.
+                    </p>
+                    <a href="#">read
+                        more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
+                <div class="image" id="ajantaa">
+                    <img src="images/ajanta.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ajanta-And-Ellora Caves</h3>
+                    <p>Considered to be one of the finest examples of ancient rock-cut caves, are located near
+                        Aurangabad</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <div class="image">
+                    <img src="images/lavasa city.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Lavasa City</h3>
+                    <p>Known as India's newest hill station, the Lavasa Corporation is constructing this private city
+                    </p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="800">
+                <div class="image">
+                    <img src="images/bhandardara.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bhandardara</h3>
+                    <p>A hill station nestled in the Sahyadri ranges of Maharashtra, has all the nature's blessings a
+                        place can get.</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="900">
+                <div class="image">
+                    <img src="images/rajmachi.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Rajmachi</h3>
+                    <p>Rajmachi is a small village situated in the Sahyadri mountain range of the Konkan region of
+                        Maharashtra.</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="1100">
+                <div class="image">
+                    <img src="images/raigad.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Raigad</h3>
+                    <p>Raigad, is a historically rich district is situated in the Konkan region of Maharashtra.</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="1300">
+                <div class="image">
+                    <img src="images/Toranmal.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Toranmal</h3>
+                    <p>Toranmal is a hill town nestled in the lap of nature in Maharashtra and is adorned with nature's
+                        best elements.</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="1500">
+                <div class="image">
+                    <img src="images/pratapgad.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pratapgad</h3>
+                    <p>Pratapgad is a hill fort in Maharashtra. Situated close to the famous hill station of
+                        Mahabaleshwar in the district of Satara.</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="1550">
+                <div class="image">
+                    <img src="images/ganapatipule.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ganapatipule</h3>
+                    <p>Beach town on the Konkan coastline, Ganpatipule has temples of Lord Ganesha as major attractions
+                        apart from the beautiful virgin beaches.</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="1700">
+                <div class="image">
+                    <img src="images/diveagar.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Diveagar Beach</h3>
+                    <p>Lying in the Raigad District, Diveagar is better referred to as seashore extending up to 6 kms
+                        and serves as prime attraction of the region.
+
+                    </p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="1850">
+                <div class="image">
+                    <img src="images/juhu.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Juhu Beach</h3>
+                    <p>Juhu beach is the longest beach in Mumbai and the most popular among tourists as well. It is
+                        renowned for its wide variety of street food that has a typical Mumbai flavour and is sweet and
+                        sour.</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="2000">
+                <div class="image">
+                    <img src="images/alibag.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Alibag</h3>
+                    <p>Alibaug (also spelled as Alibag) is a small coastal town in the Konkan region of Maharashtra,
+                        known for its beaches, villas, and beautiful scenery. </p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- destination section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <div class="heading">
+            <span>our services</span>
+            <h1>countless expericences</h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <i class="fas fa-globe"></i>
+                <h3>Maharashtra</h3>
+                <p>Maharashtra boasts a number of well known hill stations as well as coastal towns with amazing sea
+                    beaches. Some of the well known hill stations that attract tourist. </p>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p> An adventure is an exciting experience, Sometimes risky.Adventures may be activities with some
+                    potential for physical danger such as traveling, exploring, skydiving, mountain climbing, scuba
+                    diving, river rafting or participating in extreme sports. </p>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <i class="fas fa-utensils"></i>
+                <h3>food & drinks</h3>
+                <p>Maharashtrian cuisine is one which can tickle and surprise your taste buds. The food ranges from mild
+                    to really spicy food as well as flattering deserts that you will love to indulge in.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="600">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>A hotel that provides minimum amenities and services for a lower price than a regular hotel in the
+                    area. This type of hotel provides clean rooms that are safe and meet the basic needs of a guest.
+                    Extra amenities may be available, but for an extra cost.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="750">
+                <i class="fas fa-wallet"></i>
+                <h3>affordable price</h3>
+                <p>There are plenty of cheap places to visit in Maharashtra, when you are low on budget and are looking
+                    for cheap stays and accommodation options. If you are a college student or want a quick budgeted
+                    getaway</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="900">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 support</h3>
+                <p>tourist service means the provision of services in travel, transportation, accommodation, meals and
+                    drinks, entertainment, information, guidance and other services to satisfy the needs of tourists.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <div class="heading">
+            <span>our gallery</span>
+            <h1>we record memories</h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="images/gate way of india.jpg" alt="">
+                <span>travel spot</span>
+                <h3>Gateway Of India</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="images/kolad.jpg" alt="">
+                <span>travel spot</span>
+                <h3>Kolad</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="images/mapro.jpg" alt="">
+                <span>travel spot</span>
+                <h3>Mapro</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="images/paragliding.jpg" alt="">
+                <span>travel spot</span>
+                <h3>Talegaon</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="images/warali sea link.avif" alt="">
+                <span>travel spot</span>
+                <h3>Sea link</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="images/Panchagani.jpg" alt="">
+                <span>travel spot</span>
+                <h3>Panchagani</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="images/trimbakeshwar.jpg" alt="">
+                <span>travel spot</span>
+                <h3>Trimbakeshwar</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="images/bhandardara.jpg" alt="">
+                <span>travel spot</span>
+                <h3>Bhandardara</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="images/killa.jpg" alt="">
+                <span>travel spot</span>
+                <h3>Kokan</h3>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review">
+
+        <div class="content" data-aos="fade-right" data-aos-delay="300">
+            <span>testimonials</span>
+            <h3>good news from our clients</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda laudantium corporis fugiat quae unde
+                perspiciatis similique ab modi enim consequatur aperiam cumque distinctio facilis sit, debitis possimus
+                asperiores non harum.</p>
+        </div>
+
+        <div class="box-container" data-aos="fade-left" data-aos-delay="600">
+
+            <div class="box">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, ratione.</p>
+                <div class="user">
+                    <img src="images/pic-1.png" alt="">
+                    <div class="info">
+                        <h3>Sanket Panmand</h3>
+                        <span>designer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, ratione.</p>
+                <div class="user">
+                    <img src="images/pic-2.png" alt="">
+                    <div class="info">
+                        <h3>Aniket Khedkar</h3>
+                        <span>designer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, ratione.</p>
+                <div class="user">
+                    <img src="images/pic-3.png" alt="">
+                    <div class="info">
+                        <h3>Divya Adak</h3>
+                        <span>designer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, ratione.</p>
+                <div class="user">
+                    <img src="images/pic-4.png" alt="">
+                    <div class="info">
+                        <h3>Rutik Shingote</h3>
+                        <span>designer</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <div class="heading">
+            <span>blogs & posts</span>
+            <h1>we untold stories</h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
+                <div class="image">
+                    <img src="images/blog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Life is a journey, not a destination</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, natus!</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+                <div class="image">
+                    <img src="images/blog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Life is a journey, not a destination</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, natus!</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <div class="image">
+                    <img src="images/blog-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Life is a journey, not a destination</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, natus!</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- blogs section ends -->
+
+    <!-- banner section starts  -->
+
+    <!-- <div class="banner" id="login-form">
+
+        <div class="center">
+            <div class="header2">
+                Login Form
+            </div>
+            <form class="form2">
+                <input type="text" placeholder="Email or Username">
+                <i class="far fa-envelope"></i>
+                <input id="pswrd" type="password" placeholder="Password">
+                <i class="fas fa-lock" onclick="show()"></i>
+                <input type="submit" value="Sign in">
+                <a href="#">Forgot Password?</a>
+            </form>
+        </div>
+        <script>
+            function show() {
+                var pswrd = document.getElementById('pswrd');
+                var icon = document.querySelector('.fas');
+                if (pswrd.type === "password") {
+                    pswrd.type = "text";
+                    pswrd.style.marginTop = "20px";
+                    icon.style.color = "#7f2092";
+                } else {
+                    pswrd.type = "password";
+                    icon.style.color = "grey";
+                }
+            }
+        </script>
+
+    </div> -->
+
+    <!-- banner section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
+                <a href="#" class="logo"> <i class="fas fa-paper-plane"></i>shree </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ad?</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+                <h3>quick links</h3>
+                <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#about" class="links"> <i class="fas fa-arrow-right"></i> about </a>
+                <a href="#destination" class="links"> <i class="fas fa-arrow-right"></i> destination </a>
+                <a href="#services" class="links"> <i class="fas fa-arrow-right"></i> services </a>
+                <a href="#gallery" class="links"> <i class="fas fa-arrow-right"></i> gallery </a>
+                <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <h3>contact info</h3>
+                <p> <i class="fas fa-map"></i> pune, india </p>
+                <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+                <p> <i class="fas fa-envelope"></i> teambrand@gmail.com </p>
+                <p> <i class="fas fa-clock"></i> 7:00am - 10:00pm </p>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="enter your email" class="email" id="">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="credit">created by <span>Team Brand</span> | all rights reserved!</div>
+
+    <!-- footer section ends -->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+
+        AOS.init({
+            duration: 800,
+            offset: 150,
+        });
+
+    </script>
+
+</body>
+
+</html>
